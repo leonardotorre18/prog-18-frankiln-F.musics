@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#music-player {
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #fcd10a; /* Amarillo */
+}
+
+#player-container {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#song-info {
+  margin-bottom: 20px;
+}
+
+#album-cover {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#song-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#song-artist, #song-album {
+  font-size: 1.1em;
+  color: #bbb;
+}
+
+#controls {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #fcd10a; /* Amarillo */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e2b007;
+}
+
+#song-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#song-list ul {
+  list-style-type: none;
+}
+
+#song-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#song-list li:hover {
+  background-color: #444;
+}
+
+#favorites-section {
+  margin-top: 20px;
+  background-color: #222;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
+
+#favorites-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#favorites-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#favorites-list li:hover {
+  background-color: #444;
+}
+
+#favorites-section h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #fcd10a;
+}
