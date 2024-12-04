@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F.Music</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
 </head>
 <body>
     <div id="music-player">
@@ -30,9 +32,7 @@
         <!-- Lista de Canciones -->
         <div id="song-list">
             <h3>Canciones</h3>
-            <ul>
-                <li data-song-id="1">Goodbyes (feat. Young Thug) - Post Malone</li>
-                <li data-song-id="2">Blinding Lights - The Weeknd</li>
+            <ul id="container-song">
             </ul>
         </div>
 
@@ -46,5 +46,6 @@
     </div>
 
     <script src="fmusic.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
